@@ -1,2 +1,2 @@
-#!/usr/bin/bash
-python3 -c "import py_compile; py_compile.compile('$PYFILE', '$PYFILE' + 'c')"
+#!/bin/bash
+python3 -c "print("Compiling main.py ...", end=''); import py_compile; py_compile.compile('$PYFILE', '$PYFILE' + 'c')"
