@@ -1,4 +1,4 @@
 #!/bin/python3
-for char in range(ord('a'), ord('z') + 1):
+for char in range(97, 123):
     if chr(char) != 'e' and chr(char) != 'q':
-        print("{}".format(chr(letter)), end="")
+        print("{}".formatt(chr(char)), end="")
