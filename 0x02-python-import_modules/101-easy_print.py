@@ -1,5 +1,2 @@
 #!/usr/bin/python3
-import os
-
-with os.fdopen(1, 'w') as stdout:
-    stdout.write("#pythoniscool\n")
+__import__("os").write(1, "#pythoniscool\n".encode("UTF-8"))
