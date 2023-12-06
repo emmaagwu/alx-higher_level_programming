@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def uniq_add(my_list=[]):
-    set(my_list)
-    sum = 0
-    for i in range(len(my_list):
-        sum = sum + my_list[i]
-    return (sum)           
+    my_set = set(my_list)
+    add = 0
+    for i in my_set:
+        add += i
+    return add
