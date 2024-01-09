@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" Defines a function that writes a string"""
+
 
 def write_file(filename="", text=""):
     """ Writes a strig to a file
