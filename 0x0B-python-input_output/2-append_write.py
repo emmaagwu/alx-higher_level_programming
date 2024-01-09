@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" Defines a function that appends """
+
 
 def append_write(filename="", text=""):
     """ appends a string at the of a text file
