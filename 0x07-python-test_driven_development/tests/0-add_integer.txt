@@ -1,0 +1,29 @@
+""" Test cases for the add_integer function """
+
+>>> add_integer = __import__('0-add_integer').add_integer
+
+""" Example 1: add two integers """
+>>> add_integer(3, 5)
+8
+
+""" Example 2 : Adding an integer and a float """
+>>> add_integer(10,  3.5)
+13
+
+""" Example 3: Using the default value for b """
+>>> add_integer(7)
+105
+
+""" Example 4: Adding two floats """
+>>> add_integer(3.5, 2.5)
+5
+
+""" Example 5: Handling a non-integer argument for a """
+>>> add_integer("love", 10)
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+""" Example 6:Handling a non-integer default for b """
+>>> add_integer(10, "love")
+Traceback (most recent call last):
+TypeError: b must be an integer
