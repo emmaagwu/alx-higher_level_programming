@@ -1,10 +1,13 @@
 #!/usr/bin/python3
 """ defines test cases for the base class """
+import os
 import unittest
 from models.base import Base
+from models.rectangle import Rectangle
+from models.square import Square
 
 
-class TestBaseClass(unittest.Testcase):
+class TestBaseClass(unittest.TestCase):
     """ Defines test cases for the base class """
 
     def test_with_id(self):
